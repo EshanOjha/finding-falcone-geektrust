@@ -1,0 +1,100 @@
+.planet-vehicle-time-container {
+    margin: 5rem auto 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .button-wrapper{
+   
+  }
+  
+  .heading {
+    /* margin-right: auto; */
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .time-taken-wrapper {
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    display: inline-block;
+    font-weight: 500;
+    color: rgb(0, 75, 145);
+    padding: 0.3rem;
+    border-bottom: 1px solid black;
+  }
+  
+  .planet-vehicle-wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+  }
+  
+  .loading {
+    margin-bottom: 2rem;
+  }
+  
+  .button-black:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+  
+  .button-black {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    background-color: rgb(33, 35, 36);
+    color: white;
+    border: 2px solid rgb(33, 35, 36);
+  }
+
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    
+    .planet-vehicle-wrapper {
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      margin-top: 0;
+    }
+    .time-taken-wrapper {
+      margin-top: 2rem;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .planet-vehicle-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      justify-content: space-between;
+    }
+    .heading {
+      margin: 0;
+      font-size: 1rem;
+    }
+    .planet-vehicle-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 1rem;
+    }
+    .time-taken-wrapper {
+      margin: 0;
+    }
+    .planet-vehicle-time-container{
+      margin: 2rem auto;
+    }  
+  }

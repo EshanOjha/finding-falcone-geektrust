@@ -1,0 +1,22 @@
+.vehicle-box {
+    text-align: left;
+    margin-top: 1.7rem;
+    margin-left: 1.7rem;
+}
+  
+.radio-btn {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .vehicle-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        text-align: left;
+    }
+}
+  
